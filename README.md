@@ -23,8 +23,8 @@ End the program and close the output image windows.
 
 ## Program:
 
-# Developed By: Sherwin Roger R.D
-# Register Number : 212220230046
+# Developed By: JAYASHREE RAO V
+# Register Number : 212220230023
 # To Read,display the image
 import cv2
 image=cv2.imread("1.jpeg")
