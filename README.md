@@ -28,12 +28,12 @@ End the program and close the output image windows.
 # To Read,display the image
 
 import cv2
-image=cv2.imread("levi.jpg")
+image=cv2.imread("F4thai.png")
 cv2.imshow("image",image)
 cv2.waitKey(0)
 
 # To write the image
-cv2.imwrite("image2.jpg", image)
+cv2.imwrite("image2.png", image)
 
 # Find the shape of the Image
 print(image.shape)
