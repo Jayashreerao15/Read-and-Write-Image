@@ -19,27 +19,36 @@ Use imwrite(filename, image) to write the image.
 ### Step5:
 End the program and close the output image windows.
 
-```
-
 ## Program:
 
 # Developed By: JAYASHREE RAO V
 # Register Number : 212220230023
+
+```
 # To Read,display the image
+
 import cv2
-image=cv2.imread("1.jpeg")
+image=cv2.imread("levi.jpg")
 cv2.imshow("image",image)
+cv2.waitKey(0)
+
 # To write the image
-cv2.imwrite("image2",image)
+cv2.imwrite("image2.jpg", image)
+
 # Find the shape of the Image
 print(image.shape)
+
 # To access rows and columns
 for i in range(70,90):
 for j in range(110,170):
 image[i][j]=[0,0,0]
-# To cut and paste portion of image
-image[2000:2700,2000:2700]=image[1000:1700,1000:1700]
+cv2.imshow("image",image)
+cv2.waitKey(0)
 
+# To cut and paste portion of image
+image[70:90,110:175]=image[70:90,110:175]
+cv2.imshow("image",image)
+cv2.waitKey(0)
 ```
 
 ## Output:
