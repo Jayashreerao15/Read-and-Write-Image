@@ -1,9 +1,12 @@
-# READ AND WRITE AN IMAGE
-## AIM
+## EX.NO: 01<br>
+## DATE:
+## <p align="center">READ AND WRITE AN IMAGE</p>
+## Aim:
+<br>
 To write a python program using OpenCV to do the following image manipulations.
-i) Read, display, and write an image.
-ii) Access the rows and columns in an image.
-iii) Cut and paste a small portion of the image.
+<br>i) Read, display, and write an image.
+<br>ii) Access the rows and columns in an image.
+<br>iii) Cut and paste a small portion of the image.
 
 ## Software Required:
 Anaconda - Python 3.7
@@ -21,10 +24,10 @@ End the program and close the output image windows.
 
 ## Program:
 
-# Developed By: JAYASHREE RAO V
-# Register Number : 212220230023
+### Developed By: Jayashree Rao V
+### Register Number : 212220230023
 
-```
+```python
 # To Read,display the image
 
 import cv2
@@ -55,7 +58,7 @@ cv2.waitKey(0)
 
 ### i) Read and display the image
 
-![image](https://user-images.githubusercontent.com/74660507/160992657-b8695c7f-aca1-47fd-80c6-1a598a378482.png)
+ ![image](https://user-images.githubusercontent.com/74660507/160992657-b8695c7f-aca1-47fd-80c6-1a598a378482.png)
 
 <br>
 <br>
@@ -89,6 +92,7 @@ cv2.waitKey(0)
 <br>
 
 ## Result:
+
 Thus the images are read, displayed, and written successfully using the python program.
 
 
